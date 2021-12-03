@@ -20,6 +20,7 @@ export default function Topbar() {
               <div className="topbarIconContainer">
                 <Settings /> 
               </div>
+              <img src="assets/nextjs.png" alt="" className="topAvatar" />
             </div>
           </div>
         </div>

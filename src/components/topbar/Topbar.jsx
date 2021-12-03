@@ -1,5 +1,6 @@
 import React from 'react';
 import "./topbar.css";
+import  nextjs from  "../../assets/nextjs.png"
 import {NotificationsNone, Language, Settings} from '@material-ui/icons';
 export default function Topbar() {
     return (
@@ -20,7 +21,7 @@ export default function Topbar() {
               <div className="topbarIconContainer">
                 <Settings /> 
               </div>
-              <img src="assets/nextjs.png" alt="" className="topAvatar" />
+              <img src={nextjs} alt="" className="topAvatar" />
             </div>
           </div>
         </div>

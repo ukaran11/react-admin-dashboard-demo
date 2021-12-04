@@ -11,15 +11,15 @@ const Sidebar = () => {
                   <h3 className="sidebarTitle">Dashboard</h3>
                   <ul className="sidebarList">
                       <li className="sidebarListItem">
-                        <LineStyle />
+                        <LineStyle className="sidebarIcon"/>
                         Home
                       </li>
                       <li className="sidebarListItem">
-                        <Timeline />
+                        <Timeline className="sidebarIcon"/>
                         Analytics
                       </li>
                       <li className="sidebarListItem">
-                        <TrendingUp />
+                        <TrendingUp className="sidebarIcon"/>
                         Sales
                       </li>
                   </ul>

@@ -1,13 +1,14 @@
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import "./App.css";
+import Home from "./components/pages/home/Home";
 function App() {
   return (
     <div>
       <Topbar/>
       <div className="container">
         <Sidebar />
-        <div className="others">others</div>
+        <Home />
       </div>
     </div>
   );

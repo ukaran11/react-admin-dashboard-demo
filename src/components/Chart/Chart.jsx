@@ -3,7 +3,7 @@ import "./Chart.css";
 const Chart = () => {
     return (
         <div className="chart">
-            
+            Chart
         </div>
     )
 }

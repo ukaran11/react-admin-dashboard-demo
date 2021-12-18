@@ -53,6 +53,7 @@ const Chart = () => {
           "Active User": 1890,
         },
       ];
+      console.log("test")
     return (
         <div className="chart">
             <h3 className="chartTitle">User Analytics</h3>

@@ -62,6 +62,7 @@ const Chart = () => {
                         <XAxis dataKey="name" stroke="#5550bd"/>
                         <Line type="monotone" dataKey="Active User" stroke="#5550bd"/>
                         <Tooltip />
+                        <CartesianGrid />
                     </LineChart>
                 </ResponsiveContainer>
         </div>
